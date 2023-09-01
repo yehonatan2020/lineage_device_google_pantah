@@ -1,11 +1,8 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 The StatixSE Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # EUICC
 PRODUCT_COPY_FILES += \
