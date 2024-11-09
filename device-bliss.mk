@@ -1,11 +1,8 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 BlissROMS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \

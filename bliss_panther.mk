@@ -1,23 +1,23 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 BlissROMS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Bliss stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp_panther.mk)
-$(call inherit-product, device/google/gs201/lineage_common.mk)
+$(call inherit-product, device/google/gs201/bliss_common.mk)
 
-include device/google/pantah/panther/device-lineage.mk
+include device/google/pantah/panther/device-bliss.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
-PRODUCT_NAME := lineage_panther
+PRODUCT_NAME := bliss_panther
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
